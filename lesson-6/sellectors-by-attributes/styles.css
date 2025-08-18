@@ -23,7 +23,7 @@ a[href*="www"]{
 }
 
 
-[lang|="en"] {
+[lang*="en"] {
     font-size: 10px;
 }
 
