@@ -14,15 +14,16 @@ a[href^="broken"] {
     margin-left: 50px;
 }
 
-a[lang*="en"]{
-    font-size: 10px;
+a[title*="popular"]{
+    font-size: 24px;
 }
 
 a[href*="www"]{
     color: green;
 }
 
-[title*="popular"]{
-    font-size: 24px;
+
+[lang|="en"] {
+    font-size: 10px;
 }
 
