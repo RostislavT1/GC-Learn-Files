@@ -14,7 +14,7 @@ a[href^="broken"] {
     margin-left: 50px;
 }
 
-a[title*="popular"]{
+a[title~="popular"]{
     font-size: 24px;
 }
 
