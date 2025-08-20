@@ -1,12 +1,11 @@
 div {
-    margin: 50px;
     padding: 50px;
     border: 2px solid black;
-    box-sizing: border-box;
 }
 
 .div-box1 {
     background-color: blue;
+    margin: 50px;
 }
 
 .div-box2 {
