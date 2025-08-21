@@ -14,10 +14,10 @@ footer {
     clear: both;
 }
 
-.container {
-    box-sizing: border-box;
+.container {  
     width: 50%;
     float: left;
+    box-sizing: border-box;
 }
 
 .red {
