@@ -8,15 +8,13 @@
 }
 
 ul {
-    padding: 0px;
     margin: 0px;
     list-style: none;
 }
 
 
-.navigation {
+.nav-list {
     height: 40px;
-    
 }
 
 .nav-item {
@@ -70,10 +68,10 @@ ul {
 
 .eye_right {
     left: 40px;
-    bottom: 80px;
+    top: 80px;
 }
 
 .eye_left {
     left: 130px;
-    bottom: 80px;
+    top: 80px;
 }
