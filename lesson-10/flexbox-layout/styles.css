@@ -1,5 +1,5 @@
 
-li {
+ul {
     margin: 0px;
     padding: 0px;
 }
@@ -18,7 +18,7 @@ li {
 }
 
 .nav-item {
-    margin-right: 16px;
+    margin-left: 16px;
 }
 
 .content {
@@ -72,4 +72,5 @@ li {
 
 .sidebar-item {
     line-height: 40px;
+    margin-left: 16px;
 }
