@@ -18,7 +18,7 @@ p {
     letter-spacing: 3px;
     font-size: 24px;
     opacity: 80%;
-    text-decoration: dashed;
+    text-decoration: underline;
 }
 
 a {
@@ -27,5 +27,4 @@ a {
 
 .translate {
     color: grey;
-    text-decoration: dashed;
 }
