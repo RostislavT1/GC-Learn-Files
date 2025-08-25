@@ -1,0 +1,13 @@
+.gallery {
+    display: flex;
+}
+
+.thumb {
+    margin: 8px;
+    flex-shrink: 1;
+    flex-grow: 0;
+}
+
+.gallery:hover{
+    cursor: all-scroll;
+}
