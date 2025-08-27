@@ -1,8 +1,12 @@
-section {
-    margin: 32px;
+
+html {
     font-family: Roboto, sans-serif;
     font-size: 18px;
-    font-weight: 400;
+}
+
+
+section {
+    margin: 32px;
 }
 
 h1 {
