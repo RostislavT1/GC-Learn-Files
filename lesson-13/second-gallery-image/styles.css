@@ -7,5 +7,5 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: border-box;
+    box-sizing: border-box;
 }
