@@ -9,5 +9,5 @@
     color: white;
     padding-top: 32px;
     text-align: center;
-    background-clip: border-box;
+    box-sizing: border-box;
 }
