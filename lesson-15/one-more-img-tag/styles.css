@@ -9,6 +9,7 @@ body {
 }
 
 .image-button {
+    display: flex;
     position: absolute;
     width: 200px;
     height: 50px;
@@ -19,8 +20,8 @@ body {
     filter: opacity(0.5);
     top: calc(50% - 25px);
     left: calc(50% - 100px);
-    text-align: center;
-    line-height: 50px;
+    align-items: center;
+    justify-content: center;
 }
 
 .image {
