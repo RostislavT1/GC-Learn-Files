@@ -15,7 +15,7 @@
   <body>
     <form>
       <div class="input-box">
-        <input type="text" value="Emerson" />
+        <input type="text" value="Emerson" name="lastName" />
       </div>
 
       <div class="input-box">
@@ -26,12 +26,12 @@
         <input type="checkbox" name="agree" />
       </div>
       <div class="input-box choose-gender">
+        <input type="radio" id="gender-male" name="gender" checked />
         <label for="gender-male">Male</label>
-        <input type="radio" id="gender-male" name="gender" />
-        <label for="gender-female">Female</label>
         <input type="radio" name="gender" id="gender-female" />
-        <label for="gender-secret">Secret</label>
+        <label for="gender-female">Female</label>
         <input type="radio" name="gender" id="gender-secret" />
+        <label for="gender-secret">Secret</label>
       </div>
       <div class="input-box">
         <textarea
