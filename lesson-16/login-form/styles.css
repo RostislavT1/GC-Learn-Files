@@ -29,8 +29,9 @@
     margin-bottom: 8px;
 }
 
-.form-lable {
+.form-label {
     margin-bottom: 4px;
+    display: inline-block;
 }
 
 .form-input {
