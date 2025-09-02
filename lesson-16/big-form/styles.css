@@ -6,8 +6,7 @@
     margin: 32px;
 }
 
-.form > * {
-    margin: 16px 8px;
-    display: block;
+.input-box {
+    margin: 8px;
 }
 
