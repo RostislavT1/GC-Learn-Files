@@ -1,6 +1,4 @@
-* {
-    box-sizing: border-box;
-}
+
 
 tr:not(:first-child):not(:last-child) > td:not(:first-child):not(:last-child) {
     border: 1px solid black;
