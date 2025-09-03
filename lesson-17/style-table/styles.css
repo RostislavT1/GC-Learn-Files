@@ -10,14 +10,14 @@ table, td, th {
 table {
     margin: 16px;
     width: 500px;
-    text-align: right;
-    ;
+    
 }
 
 td, th {
     padding: 4px;
-    line-height: 40px;
+    text-align: right;
 }
+
 
 div {
     overflow: auto
@@ -37,9 +37,13 @@ tbody > tr:hover {
 }
 
 caption {
-    margin-bottom: 8px;
+    margin: 8px;
 }
 
 tfoot {
     font-weight: 700;
+}
+
+tr {
+    line-height: 40px;
 }
