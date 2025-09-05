@@ -26,6 +26,6 @@
     fill: white;
 }
 
-.button:hover > .bird-icon {
-   
+.bird-icon:hover {
+    fill: green;
 }
