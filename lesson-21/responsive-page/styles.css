@@ -24,6 +24,7 @@ body {
 .footer {
     background-color: #e5e5e5;
     padding: 0.5em;    
+    text-align: center;
 }
 
 .navigation {
@@ -67,6 +68,9 @@ body {
 .nav-list {
     list-style-type: none;
     padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .nav-list-item {
