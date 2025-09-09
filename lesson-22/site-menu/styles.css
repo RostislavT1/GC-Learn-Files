@@ -31,19 +31,19 @@ html {
 
 .navigation {
     width: 20%;
-    padding-left: 0.5em;
+    padding: 0.5em;
 }
 
 
 .nav-list-item {
     background-color: #808080;
     color: white;
-    height: 2em;
+    line-height: 2em;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
     margin: 0.5em;
-    padding: 0.5em;
+    padding-left: 0.5em;
 }
 
 .nav-list-link {
