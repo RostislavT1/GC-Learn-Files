@@ -42,7 +42,7 @@ html {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    margin: 0.5em;
+    margin-bottom: 0.5em;
     padding-left: 0.5em;
     padding-right: 0.5em;
     width: 100%;
