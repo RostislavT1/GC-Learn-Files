@@ -10,6 +10,7 @@
 .nav-list {
     list-style-type: none;
     margin: 0;
+    padding: 0;
     display: flex;
 
     &__item {
@@ -17,12 +18,12 @@
         color: $text-color-secondary;
         padding: $unit;
         margin-left: $unit;
-        font-weight: 700px;
+        font-weight: 700;
         cursor: pointer;
-        background-color: $color-primary;
+        background-color: $color-secondary;
 
         &_selected {
-            background-color: $color-secondary;
+            background-color: $color-primary;
         }
 
         &:hover {
