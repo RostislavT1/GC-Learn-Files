@@ -1,0 +1,41 @@
+@import 'variables.scss';
+
+* {
+    box-sizing: border-box;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    margin: 8px;
+
+    @include extra-small {
+        background-color: #ff7f50;
+    }
+
+    @include medium-up {
+        background-color: #8a2be2;
+    }
+
+    @include large-up {
+        background-color: #a61;
+    }
+
+    @include extra-large {
+        background-color: #c47;
+    }
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    @include orientatin-landscape {
+        flex-direction: row;
+    }
+    @include orientatin-portrait {
+        flex-direction: column;
+    }   
+}
